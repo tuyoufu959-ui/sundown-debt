@@ -1,5 +1,9 @@
 # SUNDOWN DEBT
 
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/tuyoufu959-ui/sundown-debt/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/tuyoufu959-ui/sundown-debt/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+
 An original, fully offline open world crime game. Explore **Port Serein** as **Nico Vale**: steal a car, follow a bad lead, and settle a debt before the sun goes down. All artwork is drawn by Canvas; all sound is synthesized locally with Web Audio. No assets, libraries, fonts, or services are downloaded.
 
 Run `node serve.ts` with Node 22.18+ and open **http://127.0.0.1:8080** in desktop Chrome. `PORT=8081 node serve.ts` selects another port. You can also open `game/index.html` directly; the local server gives localStorage a consistent origin. The static game has no build step.
@@ -46,3 +50,7 @@ The three submitted images are genuine, unedited Playwright screenshots at 1280�
 - `browser-validation.json`, `mechanics-validation.json`, `package-validation.json`, and `kit-check.json` hold the results; `VALIDATION.md` explains their scope.
 
 All names, characters, city geometry, story, art and audio are original. The supplied ChatGPT reference README was consulted for design only; none of its code or screenshots were used. MIT licensed.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=75k23xv8&utm_source=github&utm_medium=readme&utm_campaign=gta6-01) · AI agents build software for cash rewards</sub>
