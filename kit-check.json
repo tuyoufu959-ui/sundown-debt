@@ -1,0 +1,139 @@
+{
+  "command": "node cli/makefun.mjs check --kit . --repo /home/hatch/workspace/makefun/gta6-01/repo",
+  "kit": "/home/hatch/workspace/makefun/gta6-01/gta6-01-kit",
+  "competition": "gta6-01",
+  "scope": "Local pre-submit audit. Server-only checks are skipped or deferred; this is not a server grade.",
+  "checkedAt": "2026-11-17T16:20:30.698Z",
+  "passed": 4,
+  "failed": 0,
+  "skipped": 16,
+  "deferredToSubmission": 5,
+  "ok": true,
+  "checks": [
+    {
+      "check": "prerequisites",
+      "status": "skip",
+      "reason": "what gta6-01 needs is yours to check before you start, not this command's (RULES.txt, Before you start, says each item's why and fix): required: Node.js 22.18 or later (how to check: The node executable is on your PATH and reports version 22.18 or later; a newer major release, such as 24 or 26, counts.); A desktop browser such as Chrome (how to check: A desktop browser such as Chrome is installed and opens a local page; your screenshots showing the game running are the check that matters.); A coding agent whose sessions the kit's record command records (how to check: The agent you run in is one the rules' Transcripts section lists under Recorded harnesses, such as Claude Code, Codex, Gemini CLI or Superbot; a session of any other agent is not recorded.); recommended: Playwright MCP"
+    },
+    {
+      "check": "competition_open",
+      "status": "pass",
+      "reason": "now (2026-11-17T16:20:30.698Z) is between the opening, 2026-11-17T15:00:00.000Z, and the entry deadline, 2026-11-24T15:00:00.000Z; the site also checks the competition is open when you submit"
+    },
+    {
+      "check": "snapshot",
+      "status": "pass",
+      "reason": "25 files, 1,160,054 bytes at worktree@a9d6dd798865: within the intake's caps (each file at most 100 MiB, at most 100,000 entries, the archive at most 1 GiB and the repository at most 512 MiB)"
+    },
+    {
+      "check": "license_osi",
+      "status": "pass",
+      "reason": "LICENSE declares SPDX-License-Identifier: MIT, OSI-approved"
+    },
+    {
+      "check": "entrypoint",
+      "status": "pass",
+      "reason": "main.ts at the root selects node22, which gta6-01 accepts"
+    },
+    {
+      "check": "strategy_note",
+      "status": "skip",
+      "reason": "gta6-01 does not ask for a strategy note"
+    },
+    {
+      "check": "committed_secret",
+      "status": "skip",
+      "reason": "no --dotenv given, so no secret value to look for here: when you submit, the site reads the entry's whole history for every form of each secret you pushed for gta6-01 (makefun secrets push); pass --dotenv <the .env you push> to look for them here first"
+    },
+    {
+      "check": "transcripts_present",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "transcripts_recorded",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "thinking_wellformed",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "thinking_in_window",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "thinking_committed",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "thinking_reproduces",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "thinking_on_task",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "thinking_turns",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "thinking_priced",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "thinking_revised",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "thinking_fresh",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "transcripts_witnessed",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "transcripts_run_record",
+      "status": "skip",
+      "reason": "the site runs it on the transcripts it builds from gta6-01's sealed recordings (node cli/makefun.mjs record --competition gta6-01 --source <your repository>, started from inside the unpacked kit before your agent writes any code and stopped when the build is done, then node cli/makefun.mjs submit --competition gta6-01 --recording <id> --repo-url https://github.com/<owner>/<repo> --commit <sha> --title \"<name>\" --keypair <file> --repo <your repository>): the competition takes no transcript upload, so no --transcripts is needed here"
+    },
+    {
+      "check": "repo_public",
+      "status": "submission",
+      "reason": "the site reads the repository from GitHub when you submit: it must be public then"
+    },
+    {
+      "check": "repo_owner",
+      "status": "submission",
+      "reason": "its GitHub owner must be your account's GitHub login, or the commit must carry .makefun/owner.json naming one of your account's entry wallets (a wallet linked to it, or a connected agent's wallet)"
+    },
+    {
+      "check": "repo_created_after_open",
+      "status": "submission",
+      "reason": "GitHub's creation time of the repository must be at or after the opening, 2026-11-17T15:00:00.000Z"
+    },
+    {
+      "check": "commit_in_repo",
+      "status": "submission",
+      "reason": "the commit you submit must be pushed to a branch of the repository"
+    },
+    {
+      "check": "duplicate_snapshot",
+      "status": "submission",
+      "reason": "the files must differ from every other account's earlier entry: an unchanged starter or baseline is refused once someone has entered it"
+    }
+  ]
+}

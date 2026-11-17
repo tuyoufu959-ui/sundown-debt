@@ -1,0 +1,262 @@
+{
+  "checks": [
+    "Title renders",
+    "Start enters play",
+    "WASD walking",
+    "Traffic moves",
+    "Pedestrians move",
+    "Contact dialogue",
+    "Contract one complete",
+    "E steals courier van",
+    "Theft raises wanted level",
+    "Police respond",
+    "Driving moves vehicle",
+    "Active pursuit remains",
+    "Courier delivered",
+    "E exits vehicle",
+    "E reenters vehicle",
+    "Shooting defeats four enemies and secures ledger",
+    "Safehouse clears wanted level",
+    "All three contracts complete",
+    "Ending opens free roam",
+    "M enlarges map",
+    "P pauses",
+    "Pause freezes movement",
+    "Escape resumes",
+    "localStorage save writes full progress",
+    "Save reads after page reload",
+    "Save restores in a fresh browser context",
+    "Restart resets story and health",
+    "Zero JavaScript errors",
+    "No external network requests"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "screenshots": [
+    {
+      "path": "screenshots/1-start.jpg",
+      "bytes": 141113
+    },
+    {
+      "path": "screenshots/2-play.jpg",
+      "bytes": 168718
+    },
+    {
+      "path": "screenshots/3-end.jpg",
+      "bytes": 80897
+    }
+  ],
+  "telemetry": {
+    "chase": {
+      "mode": "play",
+      "x": 2336.046355621274,
+      "y": 1441.0940942868556,
+      "angle": -0.027316252372070478,
+      "hp": 86,
+      "car": "courier",
+      "speed": 207.69261475579873,
+      "heat": 3.1500000000000004,
+      "seen": true,
+      "mission": 1,
+      "stage": 1,
+      "cash": 430,
+      "police": [
+        {
+          "x": 2174.2800548806244,
+          "y": 1375.5355601740334,
+          "hp": 150
+        },
+        {
+          "x": 2217.1277921335027,
+          "y": 1394.0254714926982,
+          "hp": 150
+        },
+        {
+          "x": 2169.0863268420576,
+          "y": 1425.4727361884588,
+          "hp": 150
+        },
+        {
+          "x": 2221.5300495107035,
+          "y": 1458.5694237360353,
+          "hp": 150
+        },
+        {
+          "x": 2191.235081065628,
+          "y": 1173.3178261014727,
+          "hp": 150
+        }
+      ],
+      "enemies": [],
+      "target": {
+        "x": 2490,
+        "y": 1440,
+        "label": "DOCK 04"
+      },
+      "saved": true,
+      "mapOpen": false,
+      "completed": [
+        "A debt in daylight"
+      ],
+      "shots": 0
+    },
+    "combat": {
+      "mode": "play",
+      "x": 2448.701953624357,
+      "y": 1576.3716474799471,
+      "angle": 1.0229553923698356,
+      "hp": 88,
+      "car": null,
+      "speed": 0,
+      "heat": 5,
+      "seen": true,
+      "mission": 2,
+      "stage": 1,
+      "cash": 1930,
+      "police": [
+        {
+          "x": 2408.367393165822,
+          "y": 1454.8045479132497,
+          "hp": 150
+        },
+        {
+          "x": 2482.322154253318,
+          "y": 1476.3718721691323,
+          "hp": 150
+        },
+        {
+          "x": 2362.1414615390263,
+          "y": 1487.2980230108046,
+          "hp": 150
+        },
+        {
+          "x": 2428.3980362581246,
+          "y": 1509.146158589365,
+          "hp": 150
+        },
+        {
+          "x": 2456.567543233864,
+          "y": 1427.261997449756,
+          "hp": 150
+        },
+        {
+          "x": 2468.871887279828,
+          "y": 868.2322867742982,
+          "hp": 150
+        }
+      ],
+      "enemies": [
+        {
+          "x": 2374.4822916121466,
+          "y": 1653.0853977769289,
+          "hp": -2
+        },
+        {
+          "x": 2527.744894408761,
+          "y": 1678.0229436347606,
+          "hp": -2
+        },
+        {
+          "x": 2427.6682314168975,
+          "y": 1744.8534855517175,
+          "hp": -2
+        },
+        {
+          "x": 2537.15231015075,
+          "y": 1721.3392117482801,
+          "hp": -2
+        }
+      ],
+      "target": {
+        "x": 550,
+        "y": 2000,
+        "label": "THE LOW TIDE"
+      },
+      "saved": true,
+      "mapOpen": false,
+      "completed": [
+        "A debt in daylight",
+        "Borrowed time"
+      ],
+      "shots": 10
+    },
+    "ending": {
+      "mode": "result",
+      "x": 546.611979475755,
+      "y": 2000.705350637375,
+      "angle": 3.141592653589793,
+      "hp": 100,
+      "car": null,
+      "speed": 0,
+      "heat": 0,
+      "seen": false,
+      "mission": 3,
+      "stage": 0,
+      "cash": 5130,
+      "police": [
+        {
+          "x": 989.6949253888924,
+          "y": 1944.152857945595,
+          "hp": 150
+        },
+        {
+          "x": 739.5348860074041,
+          "y": 1926.5732873712493,
+          "hp": 150
+        },
+        {
+          "x": 643.0381259285165,
+          "y": 2000.6768348066028,
+          "hp": 150
+        },
+        {
+          "x": 952.0013484250803,
+          "y": 2126.0659324360577,
+          "hp": 150
+        },
+        {
+          "x": 904.4781406676979,
+          "y": 1891.5425760759235,
+          "hp": 150
+        },
+        {
+          "x": 871.9575596511265,
+          "y": 2056.5258167076495,
+          "hp": 150
+        }
+      ],
+      "enemies": [
+        {
+          "x": 2374.4822916121466,
+          "y": 1653.0853977769289,
+          "hp": -2
+        },
+        {
+          "x": 2527.744894408761,
+          "y": 1678.0229436347606,
+          "hp": -2
+        },
+        {
+          "x": 2427.6682314168975,
+          "y": 1744.8534855517175,
+          "hp": -2
+        },
+        {
+          "x": 2537.15231015075,
+          "y": 1721.3392117482801,
+          "hp": -2
+        }
+      ],
+      "target": null,
+      "saved": true,
+      "mapOpen": false,
+      "completed": [
+        "A debt in daylight",
+        "Borrowed time",
+        "Cut the wire"
+      ],
+      "shots": 10
+    }
+  },
+  "status": "passed"
+}

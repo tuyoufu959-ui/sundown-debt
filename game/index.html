@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142b2e">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+  <title>SUNDOWN DEBT — Port Serein</title>
+  <script defer src="./src/city.js"></script>
+  <script defer src="./src/audio.js"></script>
+  <script defer src="./src/story.js"></script>
+  <script defer src="./src/simulation.js"></script>
+  <script defer src="./src/render.js"></script>
+  <script defer src="./src/main.js"></script>
+</head>
+<body>
+  <canvas id="game" aria-label="Sundown Debt, an open world crime game in Port Serein"></canvas>
+  <div id="hud" hidden>
+    <header class="identity"><span class="sun-icon">◒</span><div>SUNDOWN DEBT<small>PORT SEREIN <i> / </i> 18:42</small></div></header>
+    <div class="vitals"><span class="tiny">NICO VALE</span><div class="health-track"><i id="health-bar"></i></div><span id="health-number">100</span><b id="cash">$0</b></div>
+    <aside class="police"><div id="stars">☆ ☆ ☆ ☆ ☆</div><small id="heat-status">OFF THE RADAR</small></aside>
+    <div class="map-label">PORT SEREIN <span>M &nbsp; EXPAND</span></div>
+    <section class="objective"><span id="chapter" class="tiny"></span><h2 id="mission-name"></h2><p id="objective-text"></p><div class="objective-bottom"><span id="distance"></span><span>◈ &nbsp; FOLLOW THE AMBER ROUTE</span></div></section>
+    <div class="district"><span id="district-name"></span><small id="district-sub">SEREIN COUNTY · SOUTH COAST</small></div>
+    <div id="vehicle-hud"><b id="speed">0</b><span>KM/H<small id="vehicle-name"></small></span></div>
+    <div class="hint" id="hint"></div>
+    <footer><span><kbd>W A S D</kbd> MOVE / DRIVE</span><span><kbd>E</kbd> INTERACT</span><span><kbd>F / CLICK</kbd> FIRE</span><span><kbd>SPACE</kbd> MELEE / BRAKE</span><span><kbd>P</kbd> PAUSE</span></footer>
+    <div id="toast" role="status"></div>
+    <div id="save-status">◈ &nbsp; ALL PROGRESS SAVED LOCALLY</div>
+  </div>
+  <main id="title" class="title">
+    <div class="title-top"><span>AN ORIGINAL OPEN WORLD CRIME STORY</span><span>01 / PORT SEREIN</span></div>
+    <div class="title-content"><div class="edition">THE COAST IS BEAUTIFUL. THE DEBT ISN’T.</div><h1>SUNDOWN<br><em>DEBT</em><span>◒</span></h1><p>Three jobs. One way out.<br>Welcome to the city that never forgives.</p><div class="title-actions"><button id="start">START YOUR STORY <span>↗</span></button><button id="continue" class="secondary" hidden>CONTINUE SAVED STORY</button><button id="roam" class="text-button">EXPLORE THE CITY &nbsp; →</button></div></div>
+    <div class="title-bottom"><span>WALK. STEAL. DRIVE. DISAPPEAR.</span><span>KEYBOARD + MOUSE <i> / </i> SOUND ON</span></div>
+    <div class="location-stamp">27° 08′ N &nbsp; 80° 19′ W<br><b>GOLDEN HOUR, BAD DECISIONS.</b></div>
+  </main>
+  <div id="overlay" class="overlay" hidden>
+    <section class="modal"><span id="modal-kicker" class="tiny"></span><h2 id="modal-title"></h2><p id="modal-body"></p><div id="modal-stats"></div><div id="modal-actions"></div></section>
+  </div>
+</body>
+</html>

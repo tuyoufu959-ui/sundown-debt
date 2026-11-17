@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checks": [
+    "Game tree meets the kit caps",
+    "Unchanged vendor SHA-256",
+    "Every declared reference stays inside game or data URI",
+    "Exactly three screenshot files",
+    "All screenshots are complete 1280x720 JPEGs under 256 KiB",
+    "Two fresh output directories produce byte-identical dossiers",
+    "Dossier matches unchanged buildDossier exactly",
+    "Dossier stays under 1.5 MiB",
+    "Requested out/dossier.json matches clean runs"
+  ],
+  "game": {
+    "filesAndDirectories": 9,
+    "bytes": 74258
+  },
+  "images": [
+    {
+      "name": "1-start.jpg",
+      "bytes": 141113,
+      "width": 1280,
+      "height": 720,
+      "sha256": "80b6539d0847b259a7db3328ca590d18d0f42b778f324f82af633efa16b6626c"
+    },
+    {
+      "name": "2-play.jpg",
+      "bytes": 168718,
+      "width": 1280,
+      "height": 720,
+      "sha256": "c6cdac737ee01ce7cc9bb92e8b777d5e613ec4d61ce331d57f1efc39227fe05d"
+    },
+    {
+      "name": "3-end.jpg",
+      "bytes": 80897,
+      "width": 1280,
+      "height": 720,
+      "sha256": "72ec257ad5d8d02c2b01ce26b2b420a7f83a51f6271087838d14a2ce423d0061"
+    }
+  ],
+  "dossier": {
+    "bytes": 598138,
+    "sha256": "b128a42d74d47e8ce38ede014c9020012e9f171ce433237f0b9a332d34e83ee0"
+  },
+  "runtime": "v24.22.1"
+}

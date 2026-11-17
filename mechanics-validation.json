@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "method": "Isolated browser fixtures plus real input; no screenshot staging",
+  "checks": [
+    "Free roam available from title",
+    "Web Audio starts after interaction",
+    "Space melee damages a nearby hostile",
+    "Right click melee defeats hostile",
+    "Sound toggle works",
+    "Hiding at safehouse passively lowers heat",
+    "Safehouse interaction heals player",
+    "Breaking sight naturally clears wanted level",
+    "Lethal enemy fire opens failure screen",
+    "Failure recovery restores player and keeps progress",
+    "Building collision blocks walking",
+    "Collectible stash rewards cash",
+    "Gameplay continues fully offline after loading",
+    "Corrupt save safely falls back to title",
+    "Static game also opens directly from file",
+    "Canvas adapts to desktop viewport resize",
+    "No browser exceptions in edge cases"
+  ],
+  "errors": []
+}
